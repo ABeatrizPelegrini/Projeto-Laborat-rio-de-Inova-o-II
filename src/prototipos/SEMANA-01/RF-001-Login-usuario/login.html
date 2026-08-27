@@ -4,9 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Login - Controle de Estoque</title>
-
 <link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
 
 </head>
 <body>
@@ -14,13 +12,6 @@
   <div class="login-card">
     <h1>Embalare Distribuidora</h1>
     <p class="subtitle">Selecione o tipo de acesso</p>
-
-    <!-- Abas para escolher o tipo de login -->
-    <div class="login-type-tabs">
-      <button type="button" class="tab-btn active" data-tipo="administrativo">Administrativo</button>
-      <button type="button" class="tab-btn" data-tipo="operacional">Operacional</button>
-      <button type="button" class="tab-btn" data-tipo="comercial">Comercial</button>
-    </div>
 
     <form id="loginForm">
 
@@ -32,26 +23,10 @@
         </div>
       </div>
 
-      <!-- Campos do login Operacional (matrícula + senha) -->
-      <div class="login-fields" data-fields="operacional" hidden>
-        <div class="field">
-          <label for="matricula">Matrícula</label>
-          <input type="text" id="matricula" name="matricula" placeholder="Ex: 000123" inputmode="numeric">
-        </div>
-      </div>
-
-      <!-- Campos do login Comercial (CNPJ + senha) -->
-      <div class="login-fields" data-fields="comercial" hidden>
-        <div class="field">
-          <label for="cnpj">CNPJ</label>
-          <input type="text" id="cnpj" name="cnpj" placeholder="00.000.000/0000-00" inputmode="numeric" maxlength="18">
-        </div>
-      </div>
-
       <!-- Campo de senha, comum aos três tipos -->
       <div class="field">
         <label for="senha">Senha</label>
-        <input type="password" id="senha" name="senha" placeholder="••••••••" required>
+        <input type="password" id="senha" name="senha" placeholder="senha" required>
       </div>
 
       <div class="options">
@@ -59,7 +34,7 @@
         <a href="#">Esqueceu a senha?</a>
       </div>
 
-      <button type="submit" class="btn-login">Entrar</button>
+      <button type="submit" class="btn-login">ENTRAR</button>
     </form>
   </div>
 
