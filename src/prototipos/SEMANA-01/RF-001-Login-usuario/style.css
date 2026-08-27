@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    background-position: center; 
+  }
+
+  .login-card {
+    background: #f0edea;
+    width: 100%;
+    max-width: 380px;
+    padding: 40px 32px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+
+  .login-card h1 {
+    font-size: 40px;
+    color: #1f2937;
+    margin-bottom: 6px;
+    text-align: center;
+    font-family: 'Kaushan Script', sans-serif;
+}
+
+  .login-card p.subtitle {
+    color: #6b7280;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .login-type-tabs {
+    display: flex;
+    background: #f3f4f6;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 24px;
+  }
+
+  .tab-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 9px 6px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #eda72d;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .tab-btn.active {
+    background: #ffffff;
+    color: #dca122;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  }
+
+  .field {
+    margin-bottom: 18px;
+  }
+
+  .field label {
+    display: block;
+    font-size: 13px;
+    color: #463e30;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+
+  .field input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .field input:focus {
+    border-color: #d49919;
+    box-shadow: 0 0 0 3px rgba(214, 157, 34, 0.15);
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 22px;
+  }
+
+  .options a {
+    color: #dda52b;
+    text-decoration: none;
+  }
+
+  .options a:hover {
+    text-decoration: underline;
+  }
+
+  .btn-login {
+    width: 100%;
+    padding: 12px;
+    background: #db7e1b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .btn-login:hover {
+    background: #d68d21;
+  }
+
+  .footer-text {
+    text-align: center;
+    font-size: 13px;
+    color: #3c3730;
+    margin-top: 20px;
+  }
+  
+  /* cadastro tirar*/
+  
+  .footer-text a {
+    color: #ea9030;
+    text-decoration: none;
+    font-weight: 600;
+  }
